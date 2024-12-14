@@ -1,5 +1,5 @@
-baseurl: "/home" 
-url: "http://127.0.0.1:5500/" 
+baseurl: "/education" 
+url: "https://thetopedu.github.io/" 
 
 # Build settings
 markdown: kramdown
