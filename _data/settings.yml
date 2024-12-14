@@ -1,0 +1,25 @@
+#-------------------------------
+# General Site Settings
+title: Top拓璞補習班
+logo: index.jpg # You can add own logo.
+description: Top拓樸補習班
+
+
+#------------------------------
+# Author Settings
+author:
+  name: Top拓樸補習班
+  image: index.jpg
+  say-hello: <strong>全國最強最犀利的專業升大學家教班</strong>
+  bio: 創立38年，原為北車站前大班，特在天母地區開設精緻小班，並贏得鄰近國中信任，師資經驗超過25年，一對一個別輔導、免費自習教室，讓您孩子的課業倍受呵護。
+
+
+#-------------------------------
+# Contact links
+facebook: https://www.facebook.com/TOP0932316668?mibextid=LQQJ4d&mibextid=LQQJ4d # Add your Facebook handle
+instagram: https://instagram.com/ # Add your Instagram handle
+line: https://line.me/ti/p/20040706ccc
+
+
+
+

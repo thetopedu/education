@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeStar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+    <h1>CodeStar</h1>
+    <form id="searchForm">
+        <div class="filters">
+            <label>Choose vocabulary:</label>
+            <div id="vocabularyOptions">
+                <input type="checkbox" id="ICD10CM" value="ICD10CM">
+                <label for="ICD10CM">ICD10CM</label><br>
+                <input type="checkbox" id="ICD10PCS" value="ICD10PCS">
+                <label for="ICD10PCS">ICD10PCS</label><br>
+                <input type="checkbox" id="ICD9CM" value="ICD9CM">
+                <label for="ICD9CM">ICD9CM</label><br>
+                <input type="checkbox" id="ICDO3" value="ICDO3">
+                <label for="ICDO3">ICDO3</label><br>
+                <input type="checkbox" id="SNOMED" value="SNOMED">
+                <label for="SNOMED">SNOMED</label><br>
+                <input type="checkbox" id="LOINC" value="LOINC">
+                <label for="LOINC">LOINC</label><br>
+                <input type="checkbox" id="ATC" value="ATC">
+                <label for="ATC">ATC</label><br>
+            </div>
+            <input type="text" id="searchQuery" placeholder="Enter search query" onfocus="deletecontent()">
+            <button type="submit" >Search</button>
+        </div>
+    </form>
+    <div id="loadingIndicator" style="display: none;">
+        <div class="load"></div>
+    </div>
+    <div id="displaySearchQuery"></div>
+    <div id="apiData"></div>
+    <div id="pagination"></div>  <!-- 添加的分頁容器 -->
+</div>
+<script src="script.js"></script>
+</body>
+</html>
